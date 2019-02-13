@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+Label{
+    -fx-font-family:'Ubuntu',sans-serif;
+    -fx-font-size:15px;
+}
+
 .checkButton {
     -fx-font-weight: bold;
     -fx-background-color: white;
-    -fx-color: black;
-    -fx-border: 2px solid rgb(184, 184, 184); /* Green */
+    -fx-font-color: black;
+    -fx-font-family: 'Ubuntu', sans-serif;
 }
 
 .title{
@@ -14,8 +19,9 @@
 }
 
 .answer{
-    -fx-font-size:20px;
+    -fx-font-size:15px;
     -fx-color:black;
     -fx-font-family: 'Ubuntu', sans-serif;
     -fx-align-content: center;
 }
+
