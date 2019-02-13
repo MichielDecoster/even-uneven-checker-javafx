@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.checkButton {
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-color: black;
+    -fx-border: 2px solid rgb(184, 184, 184); /* Green */
+}
+
+.title{
+    -fx-font-size: 30px;
+    -fx-color:black;
+    -fx-font-family: 'Ubuntu', sans-serif;
+}
+
+.answer{
+    -fx-font-size:20px;
+    -fx-color:black;
+    -fx-font-family: 'Ubuntu', sans-serif;
+    -fx-align-content: center;
+}
